@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Novo Produto</title>
+    <link rel="stylesheet" type="text/css" href="/estilo.css">
+</head>
+<body class="corpoadd">
+    <h1 class="Titulo">Adicionar Novo Produto</h1>
+    <form class='add' action="/add" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+
+        <br>
+
+        <label for="preco">Preço:</label>
+        <input type="number" name="preco" id="preco" required>
+
+        <!-- <label for="categoria">Categoria:</label>
+        <input name="categoria" id="categoria" required> -->
+
+        <select name="categoria">
+            <option value="">Escolha uma categoria</option>
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="eletrodomestico">Eletrodomésticos</option>
+            <option value="movel">Móveis</option>
+            <option value="roupa">Roupas</option>
+        </select>
+
+        <br>
+
+        <button type="submit">Adicionar</button>
+
+    </form>
+
+    <a class='voltar'href="/">Voltar à página de produtos</a>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.Titulo{
+    background-color: #bb5be4 ;
+    text-align: center;
+    padding: 20px;
+
+}
+.forms {
+    background-color: #bb5be4 ;
+    padding: 10px;
+}
+.forms button{
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+.forms select{
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+.add {
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 18px;
+    background-color: #bb5be4 ;
+    border-radius: 30px;
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.corpoadd{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.add button{
+    border-radius: 10px;
+    padding-top: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.add select{
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+.bloco a{
+    text-decoration: none;
+
+}
+.bloco{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+.eletronicos{
+    text-align: center;
+    background-color: #cccccc;
+    margin: 10px;
+    padding: 50px;
+    width: 40%;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+.movel{
+    text-align: center;
+    background-color: #f67704;
+    margin: 10px;
+    padding: 50px;
+    text-transform: capitalize;
+    width: 40%;    
+    border-radius: 20px;
+
+}
+.roupa{
+    text-align: center;
+    background-color: #029b99;
+    margin: 10px;
+    padding: 50px;
+    width: 40%;
+    text-transform: capitalize;
+    border-radius: 20px;
+
+}
+.eletrodomestico{
+    text-align: center;
+    background-color: #87555c;
+    margin: 10px;
+    padding: 50px;
+    text-transform: capitalize;
+    width: 40%;
+    border-radius: 20px;
+
+}
+a{
+    text-decoration: none;
+
+}
+.addnovo{
+
+    margin-top: 10px;
+    margin: 20px;
+    
+}
+.nomeproduto{
+    background-color: #bb5be4 ;
+    text-align: center;
+    margin-top: 10px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    width: 400px;
+
+}
+.produto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conteudo{
+    text-transform: capitalize;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
